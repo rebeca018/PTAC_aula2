@@ -1,0 +1,5 @@
+.error{
+    display: flex;
+    height: 100px;
+    background-color: #d53d3d;
+}
