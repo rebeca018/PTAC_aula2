@@ -1,12 +1,12 @@
 .error {
+    justify-content: center;
+    align-items: center;
     display: block;
     height: auto;
     width: 400px;
     text-align: center;
     border-radius: 5px;
     border: 2px solid red;
-    justify-content: center;
-    align-items: center;
     background-color: #e6e4e4;
 
     
