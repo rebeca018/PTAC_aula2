@@ -1,5 +1,31 @@
-.error{
-    display: flex;
-    height: 100px;
-    background-color: #d53d3d;
+.error {
+    display: block;
+    height: auto;
+    width: 400px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e4e4;
+
+    
+}
+
+.h2{
+    text-align: center;
+    
+}
+
+.botao{
+    border: solid 1px #C81E00;
+    border-radius: 20px;
+    color: #C81E00;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: #C81E00;
+    color: white;
+    transform: scale(1.2)
 }

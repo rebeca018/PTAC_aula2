@@ -1,4 +1,5 @@
 .cabecalho{
+    width:100%;
     background-color: #90B58B;
     display: flex;
     padding: 16px;
