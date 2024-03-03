@@ -1,13 +1,13 @@
 import styles from "./footer.module.css"
+import Image from "next/image";
 
 export default function Footer(){
     return(
         <footer className={styles.rodape}>
-            <Image
-                width={100}
-                height={100}
+             <Image
+                width={200}
+                height={50}
                 src={"https://ead.ifms.edu.br/theme/moove/pix/moodle-logo-white.png"} />
-            <p>footer</p>
         </footer>
     )
 }
