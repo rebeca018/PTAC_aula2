@@ -1,8 +1,4 @@
-import Map from "./components/Map";
 
-export default function Localizacao() {
-    return (
-        <Map />
-
-    );
+export default function Localizacao(){
+    return( <h1>Página de Localizacao!</h1> );
 }

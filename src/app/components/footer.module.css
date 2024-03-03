@@ -1,5 +1,15 @@
 .rodape{
     display: flex;
-    height: 100px;
-    background-color: rgb(60, 98, 184);
+    height: 50px;
+    background-color: #5D755A;
+    justify-content: center;
+    align-items: center;
+}
+/*
+    código para alinhar:
+    justify-content: center;
+    align-items: center;
+*/
+.img{
+    margin-top: 10px;   
 }

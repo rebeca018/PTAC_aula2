@@ -5,25 +5,32 @@ import Image from "next/image";
 export default function Menu() {
     return (
         <header className={styles.cabecalho}>
+            <div className={styles.img_menu}>
             <Image
-                width={100}
-                height={100}
+                width={30}
+                height={30}
                 src={"https://www.ifms.edu.br/marcaifms.png"} />
-            <nav>
-                <ul>
+            </div>
+            
+            <nav className={styles.navbar}>
+                <div className={styles.navbar_link}>
                     <Link href="/">
-                        <li>Home</li>
+                        Home
                     </Link>
+                </div>
 
+                <div className={styles.navbar_link}>
                     <Link href="/registro">
-                        <li>Registrar</li>
+                        Registrar
                     </Link>
+                </div>
 
+                <div className={styles.navbar_link}>
                     <Link href="/localizacao">
-                        <li>Localização</li>
+                        Localização
                     </Link>
+                </div>
 
-                </ul>
             </nav>
         </header>
     );
