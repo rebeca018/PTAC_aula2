@@ -4,13 +4,13 @@
     padding: 16px;
     font-family: sans-serif;
     text-decoration:none;
-    
 }
 
 .img_menu{
     height: auto;
     width: 75px;
 }
+
 .navbar{
     display: flex;
     text-decoration:none;

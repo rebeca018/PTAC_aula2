@@ -1,6 +1,6 @@
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
-import styles from "./layout.module.css";
+import "./globals.css";
 
 export const metadata = {
   title: "Create Next App",
@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className={styles.estilo}>
+      <body>
         <Menu />
         {children}
 
