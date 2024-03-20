@@ -1,20 +1,22 @@
 import styles from "./home.module.css";
 
-const url = "http://localhost:3000/api";
+const url = "https://back-end-ifms2.vercel.app/";
 
 export default async function Home() {
 // fetch não é algo exclusivo do next, vai fazer a solicitação
   const resposta = await fetch(url,{
-    method: "GET"
+    next: {
+      revalidate: 1
+    }
   });
-  const campus = await resposta.json();
+  const campi = await resposta.json();
  
   return (
     <main>
       <h1>Home</h1>
-      {campus.map((campi) =>
+      {campi.map((campus) =>
         <div>
-             <p>{campi.nome_campi}</p>
+             <p>{campus.nome_campus}</p>
         </div>
       )}
     </main>
